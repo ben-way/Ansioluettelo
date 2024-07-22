@@ -1,0 +1,38 @@
+h1 { color: #333;
+	
+ }
+body {
+  color: #555
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px,;
+  height: 600px
+
+}
+
+.left {
+  width: 30%;
+  background-image: linear-gradient(white, mediumseagreen);
+  color: black;
+}
+
+.right {
+  width: 70%;
+  background-color:ABEBC6;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
